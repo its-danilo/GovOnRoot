@@ -1,0 +1,18 @@
+{
+  "configVersion": 93,
+  "scope": {
+    "br.gov.meugovbr": {
+      "useWhitelist": false,
+      "excludeSystemApps": true,
+      "applyPresets": ["root_apps", "xposed", "sus_apps", "shizuku_dhizuku", "detector_apps", "custom_rom"],
+      "applySettingsPresets": ["dev_options"],
+      "extraAppList": [
+        "NOME.DO.MAGISK.OCULTO",
+        "org.frknkrc44.hma_oss",
+        "com.termux",
+        "moe.shizuku.privileged.api",
+        "com.henrikherzig.playintegritychecker"
+      ]
+    }
+  }
+}
